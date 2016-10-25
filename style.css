@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background: #3e3e3e;
+}
+
+.header{
+    z-index: 2;     /*2 слой*/
+    height: 60px;
+    background: #343434;
+    border: hidden;
+    margin-top: 3%;
+
+}
+
+.logo{
+    z-index: 1;
+}
+
+.center{
+    width: 970px;
+    margin:0 auto;
+    padding: 2%;
+}
+
+
+
+.footer{
+    height: 5%;
+    background: #343434;
+    position: fixed;
+    width: 100%;
+}
+
+.socials{
+    width: 100%;
+    display: inline;
+}
+
+.vk{
+    width: inherit;
+    display: inherit;
+
+}
+
+.instagram{
+    width: inherit;
+    display: inherit;
+
+}
+
+.deviant{
+    width: inherit;
+    display: inherit;
+
+}
