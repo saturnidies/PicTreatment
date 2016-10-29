@@ -5,15 +5,18 @@ body{
 
 .header{
     z-index: 2;     /*2 слой*/
-    height: 60px;
+    height: 140px;
     background: #343434;
     border: hidden;
     margin-top: 3%;
-
 }
 
 .logo{
     z-index: 1;
+    font-size: 100px;
+    color: #08d7a9;
+    margin: 50px auto 0 auto;
+    font-family: 'Days One', sans-serif;
 }
 
 .center{
@@ -22,34 +25,64 @@ body{
     padding: 2%;
 }
 
+.middle{
+    weight: 970px;
+    heitht: 700px;
+}
 
+.uploadButton {
+    margin: 50px auto 0 auto; /*центр */
+    display: block;
+    width: 100px;
+    background: #343434;
+    padding: 100px;
+    color: #08d7a9;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.uploadButton:hover {
+    background: #646464;
+
+}
 
 .footer{
-    height: 5%;
+    margin: 50px auto 0 auto;
+    float: right;
+    height: 100px;
     background: #343434;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
 .socials{
-    width: 100%;
+    margin: 0 auto;
     display: inline;
 }
 
-.vk{
-    width: inherit;
-    display: inherit;
+.social-logo{
+    width: 80px;
+    height: 80px;
+    margin: 10px auto 0 auto;
+}
 
+.vk{
+    display: inherit;
 }
 
 .instagram{
-    width: inherit;
     display: inherit;
-
 }
 
 .deviant{
-    width: inherit;
+    margin: 0 auto;
     display: inherit;
+}
 
+.copyright{
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
 }
