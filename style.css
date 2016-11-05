@@ -27,7 +27,7 @@ body{
 
 .middle{
     weight: 970px;
-    heitht: 700px;
+
 }
 
 .uploadButton {
@@ -50,7 +50,7 @@ body{
 }
 
 .footer{
-    margin: 50px auto 0 auto;
+    margin: 220px auto 0 auto;
     float: right;
     height: 100px;
     background: #343434;
@@ -79,14 +79,12 @@ body{
     display: inherit;
 }
 
-
-
 .instagram{
     display: inherit;
 }
 
 .deviant{
-    margin: 0 auto;
+
     display: inherit;
 }
 
@@ -95,4 +93,53 @@ body{
     font-family: 'Jura', sans-serif;
 }
 
+/*как это должно работать? %)*/
 
+@media screen and (max-width: 640px) {
+    .middle {
+        width: 640px;
+    }
+
+    .uploadButton{
+        margin: 50px auto 0 auto;
+    }
+
+}
+
+.filters{
+    width: 970px;
+    height: 100px;
+    margin: 0 auto 0 115px;
+    display: inline;
+}
+
+.filter1{
+    display: inherit;
+}
+.filter2{
+    display: inherit;
+}
+.filter3{
+    display: inherit;
+}
+.filter4{
+    display: inherit;
+}
+.filter5{
+    display: inherit;
+}
+.filter6{
+    display: inherit;
+}
+.filter7{
+    display: inherit;
+}
+.filter8{
+    display: inherit;
+}
+.filter9{
+    display: inherit;
+}
+.filter10{
+    display: inherit;
+}
